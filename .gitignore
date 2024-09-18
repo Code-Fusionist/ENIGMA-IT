@@ -1,0 +1,17 @@
+*.log
+*.out
+*.err
+*.log
+*.out
+*.err
+*.log
+*.out
+*.err
+**/node_modules
+**/dist
+**/build
+**/coverage
+**/static
+**/uploads
+**/uploads
+**/uploads
