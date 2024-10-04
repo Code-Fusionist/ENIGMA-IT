@@ -1,0 +1,22 @@
+### POST
+// @no-log
+POST {{BaseUrl}}/api/user/sendEntries
+content-type: application/json
+
+{
+  "emails": [
+    {
+      "name": "SAMPLE_USER_NAME",
+      "email": "SAMPLE_USER_EMAIL"
+    }
+  ]
+}
+
+### POST
+// @no-log
+POST {{BaseUrl}}/api/user/sendMail
+content-type: application/json
+
+{
+  "subject": "Sample from AutoMailer-Backend"
+}
